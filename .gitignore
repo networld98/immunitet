@@ -1,0 +1,13 @@
+# ignore everything
+/*
+
+# exclude bitrix
+/home/bitrix/ext_www/im.btx.bz/bitrix
+/home/bitrix/ext_www/im.btx.bz/upload
+
+# settings
+!/.gitignore
+!/home/bitrix/ext_www/im.btx.bz/bitrix/templates/info_light_blue
+
+
+
