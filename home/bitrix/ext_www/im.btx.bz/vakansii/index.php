@@ -1,7 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Вакансии");
-$APPLICATION->AddChainItem("Форум &quot;Отзывы&quot;", "/ru/forum/list.php?FID=3");
 ?>
     <p><strong><img alt="вакансия" height="299" src="/thumb/jHo31Vy-VOvBw_4qYcIzQg/580r450/490268/вакансия.jpg" style="border-width: 0px; display: block; margin-left: auto; margin-right: auto;" width="450"></strong></p>
     <p>&nbsp;</p>
@@ -10,6 +9,21 @@ $APPLICATION->AddChainItem("Форум &quot;Отзывы&quot;", "/ru/forum/lis
     <p><a name="_GoBack"></a>По условиям труда и другим вопросам обращаться по телефонам:&nbsp;</p>
     <p><a dir="ltr" href="tel:8-903-273-41-31">8-903-273-41-31</a></p>
     <p>&nbsp;</p>
-    <p><a href="request.html" target="_blank"><img class="mce-s3-button" src="/d/490268/d/buttons/693841.png" style="display: block; margin-left: auto; margin-right: auto;"></a></p>
-
+    <p>
+    <h2>Связаться с нами</h2>
+<?$APPLICATION->IncludeComponent("bitrix:form.result.new","vacansy",Array(
+        "SEF_MODE" => "Y",
+        "WEB_FORM_ID" => 2,
+        "SUCCESS_URL" => "",
+        "CHAIN_ITEM_TEXT" => "",
+        "CHAIN_ITEM_LINK" => "",
+        "IGNORE_CUSTOM_TEMPLATE" => "Y",
+        "USE_EXTENDED_ERRORS" => "Y",
+        "CACHE_TYPE" => "A",
+        "CACHE_TIME" => "3600",
+        "SEF_FOLDER" => "/",
+        "VARIABLE_ALIASES" => Array(
+        )
+    )
+);?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -120,7 +120,7 @@ $APPLICATION->SetTitle("Услуги");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
-			"detail" => "article_post/#ELEMENT_CODE#/",
+			"detail" => "#ELEMENT_CODE#/",
 			"rss" => "rss/",
 			"rss_section" => "#SECTION_ID#/rss/",
 		)

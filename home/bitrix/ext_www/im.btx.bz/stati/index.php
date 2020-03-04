@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Статьи");
 ?> <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
-	"stati",
+	"stati", 
 	array(
 		"IBLOCK_TYPE" => "clinic",
 		"IBLOCK_ID" => "10",
@@ -88,15 +88,15 @@ $APPLICATION->SetTitle("Статьи");
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"USE_SHARE" => "Y",
-		"DISPLAY_IMG_WIDTH" => "80",
-		"DISPLAY_IMG_HEIGHT" => "56",
-		"DISPLAY_IMG_MEDIUM_WIDTH" => "136",
-		"DISPLAY_IMG_MEDIUM_HEIGHT" => "101",
-		"DISPLAY_IMG_DETAIL_WIDTH" => "298",
-		"DISPLAY_IMG_DETAIL_HEIGHT" => "221",
+		"USE_SHARE" => "N",
+		"DISPLAY_IMG_WIDTH" => "",
+		"DISPLAY_IMG_HEIGHT" => "",
+		"DISPLAY_IMG_MEDIUM_WIDTH" => "",
+		"DISPLAY_IMG_MEDIUM_HEIGHT" => "",
+		"DISPLAY_IMG_DETAIL_WIDTH" => "",
+		"DISPLAY_IMG_DETAIL_HEIGHT" => "",
 		"AJAX_OPTION_ADDITIONAL" => "",
-		"COMPONENT_TEMPLATE" => "template",
+		"COMPONENT_TEMPLATE" => "stati",
 		"REVIEW_AJAX_POST" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -120,7 +120,7 @@ $APPLICATION->SetTitle("Статьи");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
-			"detail" => "article_post/#ELEMENT_CODE#/",
+			"detail" => "#ELEMENT_CODE#/",
 			"rss" => "rss/",
 			"rss_section" => "#SECTION_ID#/rss/",
 		)

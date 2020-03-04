@@ -9,7 +9,7 @@
     font-style: normal;
     font-family: "PTSansRegular";
     src: url("/g/fonts/sans-serif/sans-serif-r.eot");
-    src: url("/g/fonts/sans-serif/sans-serif-r.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-r.woff") format("woff"), url("/g/fonts/sans-serif/sans-serif-r.ttf") format("truetype"), url("/g/fonts/sans-serif/sans-serif-r.svg#PTSansRegular") format("svg"); }
+    src: url("/g/fonts/sans-serif/sans-serif-r.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-r.svg#PTSansRegular") format("svg"); }
 @font-face {
     font-weight: 500;
     font-style: normal;
@@ -1082,8 +1082,8 @@ body {
     bottom: 0;
     z-index: 999; }
 .fs-popup__inner {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: calc(50vh - 470px / 2);
     left: 16px;
     right: 16px; }
 .fs-popup .fs-wrapper {
