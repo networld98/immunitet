@@ -1,8 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Стоимость услуг медицинского центра");
+$APPLICATION->SetPageProperty("description","Существует устойчивое мнение, что платная медицина – только для самых обеспеченных пациентов. «Иммунитет» - медицинский центр, цены на услуги которого держатся на уровне, приемлемом для всех слоев населения, готов опровергнуть это заблуждение.");
 CModule::IncludeModule('iblock');
 ?>
+    <h1>Стоимость услуг медицинского центра</h1>
 <div class="content-wrapper">
     <main id="main" role="main">
         <div class="content-inner">

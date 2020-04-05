@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Контакты");
+$APPLICATION->SetPageProperty("description", "Медицинский центр «Иммунитет» - М.О., г. Бронницы, Переулок Марьинский, д.1, пом.111");
 ?>
+    <h1>Контакты</h1>
 <div class="cont-page">
 <div wfd-id="4"><strong>Адрес:</strong>&nbsp;М.О., г. Бронницы, Переулок Марьинский, д.1, пом.111<br>
     <strong>Тел.:</strong>&nbsp;+7(495) 480-01-01 ; &nbsp;+7(985) 718-02-02 ; +7(495) 926-05-99 ;&nbsp;Запись на приём через WhatsApp &nbsp;89030025505.&nbsp;Время работы медицинского центра - ежедневно с 7.00&nbsp;- 20.00.</div>

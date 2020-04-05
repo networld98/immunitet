@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Функциональные пробы");
+$APPLICATION->SetPageProperty("description", "Функциональные пробы");
 ?>
+    <h1>Функциональные пробы</h1>
         <p><strong>
         <p>Проба Реберга (Определение количества креатинина в сыворотке крови и суточной моче)</p>
         </strong></p>

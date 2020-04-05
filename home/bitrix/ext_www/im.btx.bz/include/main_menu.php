@@ -1,6 +1,6 @@
 <nav class="top_menu_wrap">
 
-    <div class="" style="position: relative">
+    <div class="">
         <a id="btn-mobile-toggle" class=""><span></span></a>
         <div class="" id="megamenu">
             <ul class="top_menu small-screen-padding">

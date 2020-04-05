@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Сбор мочи для микробиологического исследования");
+$APPLICATION->SetPageProperty("description", "Сбор мочи для микробиологического исследования");
 ?>
+    <h1>Сбор мочи для микробиологического исследования</h1>
         <p><strong>
         <p>На выявление антигена рака мочевого пузыря (UBC)</p>
         </strong></p>

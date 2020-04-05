@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Услуги");
 ?> <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
-	"uslugi",
+	"uslugi", 
 	array(
 		"IBLOCK_TYPE" => "clinic",
 		"IBLOCK_ID" => "12",
@@ -42,8 +42,8 @@ $APPLICATION->SetTitle("Услуги");
 		"CACHE_GROUPS" => "N",
 		"SET_TITLE" => "Y",
 		"SET_STATUS_404" => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "N",
 		"USE_PERMISSIONS" => "N",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"LIST_ACTIVE_DATE_FORMAT" => "j F Y",
@@ -96,7 +96,7 @@ $APPLICATION->SetTitle("Услуги");
 		"DISPLAY_IMG_DETAIL_WIDTH" => "298",
 		"DISPLAY_IMG_DETAIL_HEIGHT" => "221",
 		"AJAX_OPTION_ADDITIONAL" => "",
-		"COMPONENT_TEMPLATE" => "template",
+		"COMPONENT_TEMPLATE" => "uslugi",
 		"REVIEW_AJAX_POST" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",

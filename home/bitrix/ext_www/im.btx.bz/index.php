@@ -1,4 +1,6 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php"); ?>
+<?$APPLICATION->SetPageProperty("description", "Медицинский центр г. Бронницы - медцентр широкого профиля. Амбулаторно-поликлиническое учреждение, диагностика, анализы, справки."); ?>
+<?$APPLICATION->SetPageProperty("title", "Медицинский Центр Иммунитет в Бронницах | Амбулаторно-поликлиническое учреждение"); ?>
     <?$APPLICATION->IncludeFile("/include/main_slider.php", Array(), Array(
         "MODE"      => "php",
         "NAME"      => "Редактирование включаемой области раздела",

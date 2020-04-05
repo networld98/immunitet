@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Для обращений и предложений");
+$APPLICATION->SetPageProperty("description", "Для обращений и предложений");
 ?>
+    <h1>Для обращений и предложений</h1>
     <div class="content-inner">
         <div class="g-page g-page-anketa">
             <?$APPLICATION->IncludeComponent("bitrix:form.result.new","vacansy",Array(
