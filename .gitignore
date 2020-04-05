@@ -3,11 +3,12 @@
 
 # exclude bitrix
 /home/bitrix/ext_www/im.btx.bz/bitrix
+/home/bitrix/ext_www/im-lk.btx.bz/bitrix
 /home/bitrix/ext_www/im.btx.bz/upload
+/home/bitrix/ext_www/im-lk.btx.bz/upload
+/home/bitrix/ext_www/im.btx.bz/local
 
 # settings
 !/.gitignore
-!/home/bitrix/ext_www/im.btx.bz/bitrix/templates/info_light_blue
-
 
 
