@@ -2,26 +2,26 @@
     font-weight: 300;
     font-style: normal;
     font-family: "PTSansRegular";
-    src: url("/g/fonts/sans-serif/sans-serif-l.eot");
-    src: url("/g/fonts/sans-serif/sans-serif-l.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-l.woff") format("woff"), url("/g/fonts/sans-serif/sans-serif-l.ttf") format("truetype"), url("/g/fonts/sans-serif/sans-serif-l.svg#PTSansRegular") format("svg"); }
+    src: url("../fonts/sans-serif/sans-serif-l.eot");
+    src: url("../fonts/sans-serif/sans-serif-l.eot?#iefix") format("embedded-opentype"), url("../fonts/sans-serif/sans-serif-l.woff") format("woff"), url("../fonts/sans-serif/sans-serif-l.ttf") format("truetype"), url("../fonts/sans-serif/sans-serif-l.svg#PTSansRegular") format("svg"); }
 @font-face {
     font-weight: 400;
     font-style: normal;
     font-family: "PTSansRegular";
-    src: url("/g/fonts/sans-serif/sans-serif-r.eot");
-    src: url("/g/fonts/sans-serif/sans-serif-r.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-r.svg#PTSansRegular") format("svg"); }
+    src: url("../fonts/sans-serif/sans-serif-r.eot");
+    src: url("../fonts/sans-serif/sans-serif-r.eot?#iefix") format("embedded-opentype"), url("../fonts/sans-serif/sans-serif-r.svg#PTSansRegular") format("svg"); }
 @font-face {
     font-weight: 500;
     font-style: normal;
     font-family: "PTSansRegular";
-    src: url("/g/fonts/sans-serif/sans-serif-m.eot");
-    src: url("/g/fonts/sans-serif/sans-serif-m.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-m.woff") format("woff"), url("/g/fonts/sans-serif/sans-serif-m.ttf") format("truetype"), url("/g/fonts/sans-serif/sans-serif-m.svg#PTSansRegular") format("svg"); }
+    src: url("../fonts/sans-serif/sans-serif-m.eot");
+    src: url("../fonts/sans-serif/sans-serif-m.eot?#iefix") format("embedded-opentype"), url("../fonts/sans-serif/sans-serif-m.woff") format("woff"), url("../fonts/sans-serif/sans-serif-m.ttf") format("truetype"), url("../fonts/sans-serif/sans-serif-m.svg#PTSansRegular") format("svg"); }
 @font-face {
     font-weight: 700;
     font-style: normal;
     font-family: "PTSansRegular";
-    src: url("/g/fonts/sans-serif/sans-serif-b.eot");
-    src: url("/g/fonts/sans-serif/sans-serif-b.eot?#iefix") format("embedded-opentype"), url("/g/fonts/sans-serif/sans-serif-b.woff") format("woff"), url("/g/fonts/sans-serif/sans-serif-b.ttf") format("truetype"), url("/g/fonts/sans-serif/sans-serif-b.svg#PTSansRegular") format("svg"); }
+    src: url("../fonts/sans-serif/sans-serif-b.eot");
+    src: url("../fonts/sans-serif/sans-serif-b.eot?#iefix") format("embedded-opentype"), url("../fonts/sans-serif/sans-serif-b.woff") format("woff"), url("../fonts/sans-serif/sans-serif-b.ttf") format("truetype"), url("../fonts/sans-serif/sans-serif-b.svg#PTSansRegular") format("svg"); }
 
 .fs-btn {
     display: inline-flex;
@@ -1071,7 +1071,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: 9999; }
+    z-index: 3999; }
 .fs-popup__overlay {
     position: fixed;
     background: rgba(0, 0, 0, 0.45);
@@ -1757,7 +1757,7 @@ form.fs-form {
     display: block;
     width: 28px;
     height: 25px;
-    background: url(/t/images/formsteps_user/img/check.png) center no-repeat;
+    background: url(../images/check.png) center no-repeat;
     position: absolute;
     top: -43px;
     left: 1px; }
@@ -1770,7 +1770,7 @@ form.fs-form {
 
 .fs-popup .fs-wrapper:before {
     content: '';
-    background: url(/t/images/formsteps_user/img/form_angle.png) center no-repeat;
+    background: url(../images/form_angle.png) center no-repeat;
     display: block;
     position: absolute;
     top: -31px;
@@ -1824,7 +1824,7 @@ form.fs-form {
     left: 0;
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-image: url(/t/images/formsteps_user/img/ic_1.png); }
+    background-image: url(../images/ic_1.png); }
 
 .fs-input input.fs-input__field.init-calendar {
     width: 210px;
@@ -1898,7 +1898,7 @@ form.fs-form {
     width: 100%; }
 
 .second-step .fs-header:before {
-    background-image: url(/t/images/formsteps_user/img/ic_2.png); }
+    background-image: url(../images/ic_2.png); }
 
 span.fs-btn2._secondary._icon-left.fs-prev {
     border-radius: 30px;
@@ -1925,7 +1925,7 @@ span.fs-btn2._secondary._icon-left.fs-prev {
     display: block;
     width: 28px;
     height: 25px;
-    background: url(/t/images/formsteps_user/img/check.png) center no-repeat;
+    background: url(../images/check.png) center no-repeat;
     position: absolute;
     top: -43px;
     left: calc(50% - 11px); }
@@ -1938,7 +1938,7 @@ span.fs-btn2._secondary._icon-left.fs-prev {
     display: block;
     width: 28px;
     height: 25px;
-    background: url(/t/images/formsteps_user/img/check.png) center no-repeat;
+    background: url(../images/check.png) center no-repeat;
     position: absolute;
     top: -29px;
     left: calc(50% - 11px); }
@@ -1952,7 +1952,7 @@ span.fs-btn2._secondary._icon-left.fs-prev {
     padding-left: 105px; }
 
 .third-step .fs-header:before {
-    background-image: url(/t/images/formsteps_user/img/ic_3.png); }
+    background-image: url(../images/ic_3.png); }
 
 .third-step ._fs-column .fs-cols {
     width: 100%;
