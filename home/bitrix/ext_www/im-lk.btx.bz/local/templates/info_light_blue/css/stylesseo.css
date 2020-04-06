@@ -1,0 +1,299 @@
+﻿h2.seo_h2 {
+    background:url(../images/zag.png) center left no-repeat;
+    padding: 8px 8px 8px 45px;
+    margin:10px;
+    color: #009FCD;
+}
+
+h3.seo_h3 {
+    background:url(../images/zag.png) center left no-repeat;
+    padding: 8px 8px 8px 45px;
+    margin:10px;
+    font-family:"Lobster",Arial,Helvetica,sans-serif;
+    color: #009FCD;
+}
+
+div.zagalovok {
+    color: #008DB4;
+    text-align: center;
+    margin:2px;
+    font-size: 14px;
+    font-family: "PTSansItalic",Arial,Helvetica,sans-serif;}
+
+div.zagalovok1 {
+    background:url(../images/vopros1.png) center right no-repeat;
+    color: #FF7900;
+    text-align: right;
+    margin:10px;
+    padding:10px 55px 7px 8px;
+    font-size: 18px;
+    font-weight:bold;
+    font-family:"PTSansItalic",Arial,Helvetica,sans-serif;}
+
+div.zagalovok2 {
+    color: #00A5D5;
+    margin:15px 5px;
+    font-size: 19px;
+    font-weight:normal;
+    font-family:"PTSansBold",Arial,Helvetica,sans-serif;}
+
+div.zagalovok3 {
+    color: #FF7900;
+    text-align: center;
+    margin:10px;
+    font-size: 18px;
+    font-weight:bold;
+    font-family:"PTSansItalic",Arial,Helvetica,sans-serif;}
+
+div.zagalovok5 {
+    color: #000000;
+    text-align: center;
+    margin:22px 0 5px 0;
+    font-size: 20px;
+    font-family:"Lobster",Arial,Helvetica,sans-serif;}
+
+.seo_ul li {
+    list-style:none;
+    background:0 3px no-repeat;
+    padding:0 0 2px 13px; 
+    margin:0 0 0 20px;
+    text-align:left;
+}
+.seo_ol li {
+    list-style:none;
+    background:0 3px no-repeat;
+    padding:0 0 2px 13px; 
+    margin:0 0 0 20px;
+    text-align:left;
+}
+
+img.seo_img   {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+img.seo_img1   {
+    float: right;
+    margin: 14px 0 0 15px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border-radius: 100px;
+    behavior: url(../../../../g/pie/pie.htc);
+    border:11px solid #F5F5F5 !important;
+    box-shadow: 3px 3px 4px #B8B8B8;
+}
+
+img.seo_img2   {
+    float: left;
+    margin: 10px 30px 0 30px;
+}
+
+img.seo_img3   {
+    float: right;
+    margin: 0 40px 0 10px;
+}
+
+img.seo_img4   {
+    float: right;
+    margin: 0 7px 0 15px;
+    border:5px solid #ffffff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(../../../../g/pie/pie.htc);
+    box-shadow: 0 0 4px #C9C7C7;
+}
+
+.lifted {
+        position:relative;
+        border:0px !important;
+        padding:1em;
+        margin:8px;
+        background:#fff;
+        border-radius:4px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-border-radius:4px;
+ 
+}
+ 
+.lifted:before,
+.lifted:after {
+        content:"";
+        position:absolute;
+        z-index:-2;
+        left:10px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+ 
+.lifted:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
+
+hr { background: #C4C4C4; height: 1px; border:none; }
+
+div.bk {
+    background:url(logogo.png) center left no-repeat;
+    padding: 6px 10px 6px 40px;
+    display: inline-block;
+    font-family:"Lobster",Arial,Helvetica,sans-serif;
+    color: #000; 
+    font-size: 18px; 
+    text-decoration: none;
+    margin: 5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(../../../../g/pie/pie.htc);
+}
+
+div.seo_block {
+    background:#F6F6F6;
+    padding: 15px;
+    display: inline-block;
+    color: #000; 
+    border:7px solid #ffffff;
+    text-decoration: none;
+    margin: 10px 20px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(../../../../g/pie/pie.htc);
+    box-shadow: 0 0 4px #C9C7C7;
+}
+
+a.bk1 {
+
+background: rgba(255,175,75,1);
+background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,123,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff7b00', GradientType=0 );
+
+    padding: 7px 10px;
+    display: inline-block;
+    font-family:"Lobster",Arial,Helvetica,sans-serif;
+    text-shadow:1px 1px 1px #D66300;
+    color: #fff; 
+    font-size: 21px; 
+    text-decoration: none;
+    width: 235px;
+    margin: 5px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
+    border-radius: 12px;
+    behavior: url(../../../../g/pie/pie.htc);
+    box-shadow: 3px 3px 4px #B8B8B8;
+}
+
+
+a.bk1:hover {
+background: rgba(0,221,255,1);
+background: -moz-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,221,255,1)), color-stop(100%, rgba(0,141,180,1)));
+background: -webkit-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -o-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: linear-gradient(to bottom, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddff', endColorstr='#008db4', GradientType=0 );
+    color:#fff;
+    text-shadow:1px 1px 1px#037A9B;}
+
+div.my_button  {
+background: rgba(255,175,75,1);
+background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,123,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,123,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff7b00', GradientType=0 );
+    cursor: pointer;
+    padding: 3px 10px;
+    display: inline-block;
+    font-family:"Lobster",Arial,Helvetica,sans-serif;
+    text-shadow:1px 1px 1px #D66300;
+    color: #fff; 
+    font-size: 16px; 
+    text-decoration: none;
+    text-align:center;
+    width: 180px;
+    border:4px solid #00B5EA;
+    margin: 2px 0 2px 270px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
+    border-radius: 12px;
+    behavior: url(../../../../g/pie/pie.htc);
+    box-shadow: 3px 3px 4px #B8B8B8;
+}
+
+
+div.my_button:hover {
+background: rgba(0,221,255,1);
+background: -moz-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,221,255,1)), color-stop(100%, rgba(0,141,180,1)));
+background: -webkit-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -o-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+background: linear-gradient(to bottom, rgba(0,221,255,1) 0%, rgba(0,141,180,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddff', endColorstr='#008db4', GradientType=0 );
+    color:#fff;
+    border:4px solid #FF7B00;
+    text-shadow:1px 1px 1px#037A9B;}
+}
+/* Прайс-лист на странице услуги */
+.price-list-uslugi-page {
+	background-color:#323232;
+}
+.price-list-uslugi-page tr td:last-child{
+	width: 65px;
+	text-align: right;
+}
+.stati-button {
+    padding: 10px 16px;
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px white;
+    -moz-box-shadow: inset 0 0 3px white;
+    box-shadow: inset 0 0 3px white;
+    background: #00c5ff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00c5ff), color-stop(100%, #0085aa));
+    background: -webkit-linear-gradient(bottom, #00c5ff 0, #0085aa 100%);
+    background: -moz-linear-gradient(bottom, #00c5ff 0, #0085aa 100%);
+    background: -ms-linear-gradient(bottom, #00c5ff 0, #0085aa 100%);
+    background: -o-linear-gradient(bottom, #00c5ff 0, #0085aa 100%);
+    background: linear-gradient(to bottom, #00c5ff 0%, #0085aa 100%);
+    -pie-background: linear-gradient(to bottom, #00c5ff 0%, #0085aa 100%);
+    text-decoration: none;
+border: 3px solid #ffa300;
+}
+.stati-button:hover {
+	border: 3px solid #ff7b00;
+	color: #fff;
+}

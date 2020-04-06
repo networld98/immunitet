@@ -11,29 +11,29 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
     <?$APPLICATION->ShowHead();?>
     <div id="panel"><? if ($USER->IsAdmin()){$APPLICATION->ShowPanel();}; ?></div>
-    <link href="/d/490268/t/styles/normalize.css" rel="stylesheet">
-    <link href="/d/490268/t/styles/styles.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/normalize.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/styles.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/css/adaptive.css" rel="stylesheet">
-    <link href="/d/490268/t/styles/stylesseo.css" rel="stylesheet">
-    <link href="/d/490268/t/styles/modules_styles.css" rel="stylesheet">
-    <link href="/d/490268/t/styles/articles.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/stylesseo.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/modules_styles.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/articles.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/css/jquery-ui.css" rel="stylesheet" >
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <script src="/d/490268/t/scripts/jquery-1.8.3.min.js"></script>
-    <script src="/d/490268/t/scripts/modernizr.2.6.2.js"></script>
-    <script src="/d/490268/t/scripts/jquery.waterwheelCarousel.min.js"></script>
-    <script src="/d/490268/t/scripts/jquery.placeholder.js"></script>
-    <script src="/d/490268/t/scripts/equalheight.js"></script>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <link rel='stylesheet' type='text/css' href='/shared/highslide-4.1.13/highslide.min.css'/>
-    <script type='text/javascript' src='/shared/highslide-4.1.13/highslide.packed.js'></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.8.3.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/modernizr.2.6.2.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.waterwheelCarousel.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.placeholder.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/equalheight.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-ui.js"></script>
+    <link rel='stylesheet' type='text/css' href='<?=SITE_TEMPLATE_PATH?>/css/highslide.min.css'/>
+    <script type='text/javascript' src='<?=SITE_TEMPLATE_PATH?>/js/highslide.packed.js'></script>
     <script type='text/javascript'>
-        hs.graphicsDir = '/shared/highslide-4.1.13/graphics/';
+        hs.graphicsDir = '<?=SITE_TEMPLATE_PATH?>/graphics/';
         hs.outlineType = null;
         hs.showCredits = false;
         hs.lang={cssDirection:'ltr',loadingText:'Загрузка...',loadingTitle:'Кликните чтобы отменить',focusTitle:'Нажмите чтобы перенести вперёд',fullExpandTitle:'Увеличить',fullExpandText:'Полноэкранный',previousText:'Предыдущий',previousTitle:'Назад (стрелка влево)',nextText:'Далее',nextTitle:'Далее (стрелка вправо)',moveTitle:'Передвинуть',moveText:'Передвинуть',closeText:'Закрыть',closeTitle:'Закрыть (Esc)',resizeTitle:'Восстановить размер',playText:'Слайд-шоу',playTitle:'Слайд-шоу (пробел)',pauseText:'Пауза',pauseTitle:'Приостановить слайд-шоу (пробел)',number:'Изображение %1/%2',restoreTitle:'Нажмите чтобы посмотреть картинку, используйте мышь для перетаскивания. Используйте клавиши вперёд и назад'};</script>
-    <script src="/d/490268/t/scripts/notify.min.js"></script>
-    <script src="/d/490268/t/scripts/scripts.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/notify.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -44,14 +44,14 @@
         ga('send', 'pageview');
 
     </script>
-    <script type="text/javascript" src="/t/v1181/images/myscript.js"></script>
-    <link rel="stylesheet" href="/t/v1181/images/style_bdr.scss.css">
-    <link rel="stylesheet" href="/g/basestyle/1.0.0/board/board.blue.css">
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/myscript.js"></script>
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/style_bdr.scss.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/board.blue.css">
 
-    <link type="text/css" rel="stylesheet" href="/t/v1181/images/formsteps_user/css/index.scss.css"/>
-    <link type="text/css" rel="stylesheet" href="/t/v1181/images/formsteps_user/css/jquery.datetimepicker.css"/>
-    <script type="text/javascript" src="/t/v1181/images/formsteps_user/js/jquery.datetimepicker.full.min.js"></script>
-    <script type="text/javascript" src="/t/v1181/images/formsteps_user/js/index.js"></script>
+    <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index.scss.css"/>
+    <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/jquery.datetimepicker.css"/>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.datetimepicker.full.min.js"></script>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/index.js"></script>
     <script>
         $(function(){
             $('.formsteps').formsteps({
