@@ -8,7 +8,8 @@
         <a href="/informaciya/article_post/laboratoriya" class="h1">Лаборатория</a>
     </div>
 </div>
-<div class="service-category-text"> <div style="font-size: 18px; font-family: 'Lobster', Arial, Helvetica, sans-serif; text-align: right;"><span style="font-weight: normal;"></span>&nbsp;<span style="color: #ff8e00;">+7(495) </span>480-01-01</div> </div>
+<div class="service-category-text"> <div style="font-size: 18px; font-family: 'Lobster', Arial, Helvetica, sans-serif; text-align: right;"><span style="font-weight: normal;"></span>&nbsp;
+        <a href="tel:+74954800101"><span style="color: #ff8e00;">+7(495) </span>480-01-01</a></div> </div>
 <div class="service-category">
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?><br />

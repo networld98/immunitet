@@ -18,4 +18,7 @@ $(function(){
         $('.fs-popup__overlay').hide();
         $('.fs-popup').hide();
     });
+    $('input[name="form_date_26"]').click(function () {
+        $('img.calendar-icon').trigger('click');
+    });
 });
