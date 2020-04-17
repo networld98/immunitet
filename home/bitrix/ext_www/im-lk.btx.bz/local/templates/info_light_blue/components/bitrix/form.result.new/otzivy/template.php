@@ -27,22 +27,20 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 		}
 	} //endwhile
 	?>
-<?
-if($arResult["isUseCaptcha"] == "Y")
-{
-?>
-<div class="form-field">
-    <label>
-	<b><?=GetMessage("FORM_CAPTCHA_TABLE_TITLE")?></b><br>
-    <input type="hidden" name="captcha_sid" value="<?=htmlspecialcharsbx($arResult["CAPTCHACode"]);?>" /><br>
-    <img src="/bitrix/tools/captcha.php?captcha_sid=<?=htmlspecialcharsbx($arResult["CAPTCHACode"]);?>" width="180" height="40" /><br>
-    <?=GetMessage("FORM_CAPTCHA_FIELD_TITLE")?><?=$arResult["REQUIRED_SIGN"];?><br>
-    <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" /><br>
-    </label>
-</div>
-<?
-} // isUseCaptcha
-?>
+    <?
+    if($arResult["isUseCaptcha"] == "Y")
+    {
+        ?>
+        <div class="form-field">
+            <label>
+                <input type="hidden" name="captcha_sid" value="<?=htmlspecialcharsbx($arResult["CAPTCHACode"]);?>" /><br>
+                <img src="/bitrix/tools/captcha.php?captcha_sid=<?=htmlspecialcharsbx($arResult["CAPTCHACode"]);?>" width="180" height="40" /><br>
+                <input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" /><br>
+            </label>
+        </div>
+        <?
+    } // isUseCaptcha
+    ?>
     <div class="form-field">
         <input <?=(intval($arResult["F_RIGHT"]) < 10 ? "disabled=\"disabled\"" : "");?> class="fs-submit fs-btn2" type="submit" name="web_form_submit" value="<?=htmlspecialcharsbx(strlen(trim($arResult["arForm"]["BUTTON"])) <= 0 ? GetMessage("FORM_ADD") : $arResult["arForm"]["BUTTON"]);?>" />
     </div>
