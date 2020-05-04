@@ -55,7 +55,9 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
         <input <?=(intval($arResult["F_RIGHT"]) < 10 ? "disabled=\"disabled\"" : "");?> class="fs-submit fs-btn2" type="submit" name="web_form_submit" value="<?=htmlspecialcharsbx(strlen(trim($arResult["arForm"]["BUTTON"])) <= 0 ? GetMessage("FORM_ADD") : $arResult["arForm"]["BUTTON"]);?>" />
     </div>
     <div class="form-field-error">
-        <?if ($arResult["isFormErrors"] == "Y"):?><?=$arResult["FORM_ERRORS_TEXT"];?><?endif;?>
+        <?if ($arResult["isFormErrors"] == "Y"):?>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <?=$arResult["FORM_ERRORS_TEXT"];?><?endif;?>
     </div>
 <?=$arResult["FORM_FOOTER"]?>
 <?
@@ -66,8 +68,9 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
         $('[name=web_form_submit]').click(function(){
             var  $name = $('[name=form_text_1]').val();
             var  $tel = $('[name=form_text_2]').val();
-            var  $doctor = $('[name=form_dropdown_SIMPLE_QUESTION_415]').val();
-            if ($name !== null && $name !== "" && $tel !== null && $tel !== "" && $doctor !== null && $doctor !== ""){
+            var  $captha = $('[name=captcha_word]').val();
+            grecaptcha.reset();
+            if ($name !== null && $name !== "" && $tel !== null && $tel !== "" && $doctor !== null && $doctor !== "" && $captha !== ""){
                 $('.fs-wrapper form').hide();
                 $('.fs-message').show();
             }
