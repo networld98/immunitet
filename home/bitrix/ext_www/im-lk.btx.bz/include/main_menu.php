@@ -40,7 +40,7 @@
                 <li><a class="piejs text-shadow has-icon" href="http://imm.clinic/" target="_blank">
                     Анализы
                         <span class="menu-icon"><img src="<?=SITE_TEMPLATE_PATH?>/images/analize_title_ico.png"
-                                                     alt=""></span> </a>
+                                                     alt="Анализы"></span> </a>
                 </li>
                 <li><a class="piejs text-shadow" href="/detskoe-otdelenie1">Детское отделение
                     </a>

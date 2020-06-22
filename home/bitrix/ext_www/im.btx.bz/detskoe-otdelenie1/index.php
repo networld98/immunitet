@@ -163,14 +163,14 @@ $doctor = "pediatr";
     <div class="content-block-bottom-images">
 
         <div class="content-block-bottom-images-item item-1"><img
-                    src="/thumb/2/fTWD9k41trJzT_tlub9vaA/242c215/d/children-page-image-1.jpg" alt=""></div>
+                    src="/thumb/2/fTWD9k41trJzT_tlub9vaA/242c215/d/children-page-image-1.jpg" alt="children-page-1"></div>
         <div class="content-block-bottom-images-item item-2"><img
-                    src="/thumb/2/EWFIZPGocooZS_9Y6lm68Q/242c215/d/children-page-image-2.jpg" alt=""></div>
+                    src="/thumb/2/EWFIZPGocooZS_9Y6lm68Q/242c215/d/children-page-image-2.jpg" alt="children-page-2"></div>
         <div class="content-block-bottom-images-item item-3"><img
-                    src="/thumb/2/1O-VfJwdG4-TNe4aOX8U3w/242c215/d/children-page-image-3.jpg" alt=""></div>
+                    src="/thumb/2/1O-VfJwdG4-TNe4aOX8U3w/242c215/d/children-page-image-3.jpg" alt="children-page-3"></div>
         <div class="content-block-bottom-images-item item-4"><img
-                    src="/thumb/2/wS-daFeJLTt2pSCfHoehmg/242c215/d/children-page-image-4.jpg" alt=""></div>
+                    src="/thumb/2/wS-daFeJLTt2pSCfHoehmg/242c215/d/children-page-image-4.jpg" alt="children-page-4></div>
         <div class="content-block-bottom-images-item item-5"><img
-                    src="/thumb/2/jugJCExEifIVhQz06AQwgA/242c215/d/children-page-image-5.jpg" alt=""></div>
+                    src="/thumb/2/jugJCExEifIVhQz06AQwgA/242c215/d/children-page-image-5.jpg" alt="children-page-5"></div>
     </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

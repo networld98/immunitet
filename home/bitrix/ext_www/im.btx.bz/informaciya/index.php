@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Услуги многопрофильного медицинского центра \"Иммунитет\"");
 $APPLICATION->SetTitle("Информация");
 ?>
 <div class="infor-page"> 
@@ -62,7 +63,7 @@ $APPLICATION->SetTitle("Информация");
 		"DISPLAY_NAME" => "N",
 		"META_KEYWORDS" => "-",
 		"META_DESCRIPTION" => "-",
-		"BROWSER_TITLE" => "NAME",
+		"BROWSER_TITLE" => "-",
 		"DETAIL_ACTIVE_DATE_FORMAT" => "j F Y",
 		"DETAIL_FIELD_CODE" => array(
 			0 => "PREVIEW_PICTURE",
@@ -106,12 +107,12 @@ $APPLICATION->SetTitle("Информация");
 		"SHARE_HIDE" => "N",
 		"SHARE_TEMPLATE" => "",
 		"SHARE_HANDLERS" => array(
-			0 => "delicious",
-			1 => "mailru",
-			2 => "lj",
-			3 => "vk",
-			4 => "facebook",
-			5 => "twitter",
+			0 => "vk",
+			1 => "delicious",
+			2 => "facebook",
+			3 => "twitter",
+			4 => "mailru",
+			5 => "lj",
 		),
 		"SHARE_SHORTEN_URL_LOGIN" => "",
 		"SHARE_SHORTEN_URL_KEY" => "",

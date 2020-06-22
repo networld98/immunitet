@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Функциональные пробы");
 $APPLICATION->SetTitle("Функциональные пробы");
-$APPLICATION->SetPageProperty("description", "Функциональные пробы");
+$APPLICATION->SetPageProperty("description", "Функциональные пробы дают возможность оценить общее состояние организма человека, выявить системные особенности, отклонения от нормы и нарушения работы.");
 ?>
     <h1>Функциональные пробы</h1>
         <p><strong>
